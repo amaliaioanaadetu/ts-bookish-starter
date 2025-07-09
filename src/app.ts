@@ -1,5 +1,6 @@
 import express from 'express';
 import 'dotenv/config';
+import { Connection, Request } from 'tedious';
 
 import healthcheckRoutes from './controllers/healthcheckController';
 import bookRoutes from './controllers/bookController';
